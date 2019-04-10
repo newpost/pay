@@ -25,7 +25,7 @@
             <artifactId>spring-webmvc</artifactId>
             <version>3.1.2.RELEASE</version>
         </dependency>
-        <!-- spring -->
+        <!-- spring --><!--
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring</artifactId>
@@ -36,7 +36,7 @@
                     <artifactId>spring-struts</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
+        </dependency>-->
         <!-- aop -->
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -52,12 +52,6 @@
             <groupId>cglib</groupId>
             <artifactId>cglib-nodep</artifactId>
             <version>2.1_3</version>
-        </dependency>
-        <!-- springside-core -->
-        <dependency>
-            <groupId>org.springside</groupId>
-            <artifactId>springside-core</artifactId>
-            <version>4.0.0.GA</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -145,11 +139,6 @@
             <groupId>dom4j</groupId>
             <artifactId>dom4j</artifactId>
             <version>1.6.1</version>
-        </dependency>
-        <dependency>
-            <groupId>net.sourceforge.pinyin4j</groupId>
-            <artifactId>pinyin4j</artifactId>
-            <version>2.5.0</version>
         </dependency>
 
         <!-- common-lang -->
